@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        color: black;
+        position: relative;
+    }
+
+    tr.head {
+        background-color:#77e3f7;
+        color: black;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color:#F2C811;
+        color: black;
+        text-align: center;
+    }
+
+    td,th {
+        border: 1px solid black;   
+        padding: 10px;
+        text-align: left;
+    }
+
+    .title {
+        text-align: center;
+        color: white;
+    }
+    .title_b {
+        background-color: #191919;
+    }
+
