@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "titulo": "O que é JavaScript",
+        "descricao": "JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. Desde o momento em que a página web é exibida no navegador, JavaScript é usado para tornar a página mais responsiva, interativa e dinâmica."
+    },
+    {
+        "id": 2,
+        "titulo": "Statement 'for'",
+        "descricao": "O statement 'for' cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência."
+    },
+    {
+        "id": 3,
+        "titulo": "Funções em JavaScript",
+        "descricao": "Uma função em JavaScript é um bloco de código projetado para realizar uma tarefa específica. Uma função é executada quando 'algo' a invoca (chama)."
+    },
+    {
+        "id": 4,
+        "titulo": "Objetos em JavaScript",
+        "descricao": "JavaScript é uma linguagem baseada em objetos. Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor."
+    },
+    {
+        "id": 5,
+        "titulo": "Escopo em JavaScript",
+        "descricao": "O escopo em JavaScript refere-se ao contexto atual de execução do código, onde os valores e as expressões são visíveis ou podem ser acessados. Existem dois tipos principais: escopo global e escopo local."
+    },
+    {
+        "id": 6,
+        "titulo": "Variáveis em JavaScript",
+        "descricao": "Variáveis são contêineres para armazenar valores de dados. Em JavaScript, as variáveis são declaradas com as palavras-chave var, let ou const."
+    },
+    {
+        "id": 7,
+        "titulo": "Tipos de Dados em JavaScript",
+        "descricao": "JavaScript é uma linguagem de tipagem dinâmica, o que significa que não é necessário declarar o tipo de variável. Os tipos incluem Number, String, Boolean, entre outros."
+    },
+    {
+        "id": 8,
+        "titulo": "Operadores em JavaScript",
+        "descricao": "Operadores são símbolos que informam ao compilador para realizar operações matemáticas ou lógicas e produzir um resultado final."
+    },
+    {
+        "id": 9,
+        "titulo": "Estruturas de Controle em JavaScript",
+        "descricao": "Estruturas de controle, como if...else e switch, são usadas para realizar diferentes ações com base em diferentes condições."
+    },
+    {
+        "id": 10,
+        "titulo": "Loops em JavaScript",
+        "descricao": "Loops podem executar um bloco de código várias vezes. JavaScript suporta diferentes tipos de loops, como for, while, e do...while."
+    },
+    {
+        "id": 11,
+        "titulo": "Eventos em JavaScript",
+        "descricao": "Eventos são ações que podem ser detectadas pelo código JavaScript. Exemplos comuns incluem cliques, sobreposições de mouse e atualizações de conteúdo."
+    },
+    {
+        "id": 12,
+        "titulo": "DOM em JavaScript",
+        "descricao": "O Document Object Model (DOM) é uma interface de programação para documentos HTML e XML. Ele representa a página para que programas possam alterar a estrutura, estilo e conteúdo."
+    },
+    {
+        "id": 13,
+        "titulo": "JSON em JavaScript",
+        "descricao": "JSON (JavaScript Object Notation) é um formato para armazenar e transportar dados. É frequentemente usado quando dados são enviados de um servidor para uma página web."
+    },
+    {
+        "id": 14,
+        "titulo": "Promises em JavaScript",
+        "descricao": "Promises são usadas para lidar com operações assíncronas. Elas representam um valor que pode estar disponível agora, no futuro, ou nunca."
+    }
+
+]

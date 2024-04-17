@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Meu Dicionário Javascript">
+    <meta name="author" content="João Caetano">
+    <meta name="keywords" content="html, css, web, desenvolvimento, front-end">
+    <title>Glossario Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"  type="image/ico"  href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<header>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="index.html"><img src="./assets/img/js.png" alt="logo"></a></li>
+            <input type="checkbox" id="check">
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>  
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li> 
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <div class="centered-container">
+            <img class="center-content" src="assets/img/jsImage.png" width="250" alt="Logo do Javascript, escudo amarelo, com as letras J e S" title="Meu Dog caramelo">
+        </div>
+        <div>
+            <h1>Dicionário Javascript!</h1>
+            <p>Escolha uma opção abaixo:</p>
+            <select title="Tópicos" id="slc-topicos" onchange="onSelectChange()">
+            </select>
+    
+            <label for="description" id="lbl-txt-desc">Descição</label>
+            <textarea id="txt-desc" name="description" title="Descição" placeholder=""></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
