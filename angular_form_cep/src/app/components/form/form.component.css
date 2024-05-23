@@ -1,0 +1,17 @@
+.form_container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_content_container{
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.save_btn{
+    display: flex;
+    justify-content: center;
+}
